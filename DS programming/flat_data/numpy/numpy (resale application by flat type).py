@@ -1,5 +1,5 @@
 import numpy as np
-F = "C:/Users/User/Desktop/suss/specialised dip/Introduction to programming for DS/assignment excel/number-of-resale-applications-registered-by-flat-type.csv"
+F = "File Path/folder path/number-of-resale-applications-registered-by-flat-type.csv"
 File = np.loadtxt(F,delimiter=',', skiprows=1,
              dtype=[('quarter','U10'),('flat_type','U10'),('no_of_resale_applications','i8')])
 
