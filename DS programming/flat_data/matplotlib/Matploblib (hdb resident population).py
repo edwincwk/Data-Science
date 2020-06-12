@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-F = 'C:/Users/User/Desktop/suss/specialised dip/Introduction to programming for DS/assignment excel/hdb-resident-population.csv'
+F = 'File Path/folder path/hdb-resident-population.csv'
 File = np.loadtxt(F,delimiter=',', skiprows=1, dtype=[('shs_year','i4'),('hdb_resident_population','i8')])
 shs_year = File['shs_year']
 hdb_resident_population = File['hdb_resident_population']
