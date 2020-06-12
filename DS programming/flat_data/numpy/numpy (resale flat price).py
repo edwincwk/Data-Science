@@ -1,5 +1,5 @@
 import numpy as np
-F = "C:/Users/User/Desktop/suss/specialised dip/Introduction to programming for DS/assignment excel/resale-flat-prices-based-on-registration-date-from-jan-2017-onwards.csv"
+F = "File Path/folder path//resale-flat-prices-based-on-registration-date-from-jan-2017-onwards.csv"
 File = np.loadtxt(F,delimiter=',', skiprows=1,
              dtype=[('month','U10'),('town','U40'), ('flat_type', 'U10'),('block','U6'),('street_name', 'U40'),('storey_range', 'U10'),
                     ('floor_area','i4'),('flat_mode','U40'),('lease_commence_date','i4'),('remaining_lease','U20'),('resale_price','f8')])
